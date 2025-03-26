@@ -34,3 +34,8 @@ python cell_count_analysis.py
 ## Troubleshooting
 - Ensure the CSV file `cell-count.csv` is present in the same directory.
 - Verify the Python version and the required packages are installed.
+- If `pip install pandas seaborn matplotlib scipy` or `python cell_count_analysis.py` doesn't work, try using `pip3` and `python3` instead:
+```bash
+pip3 install pandas seaborn matplotlib scipy
+python3 cell_count_analysis.py
+```
